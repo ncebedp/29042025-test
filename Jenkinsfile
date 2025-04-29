@@ -5,7 +5,7 @@ pipeline{
             steps{
                 echo 'Welcome to first declarative pipeline';
                 sh 'whoami';
-                sh 'sudo apt update';
+                sh 'sudo apt update -y';
             }
         }
     }
